@@ -130,10 +130,10 @@ function loader(type: string) {
 		};
 	} else if (type === 'neoforge') {
 		return {
-			legacyMetaData: 'maven.creeperhost.net/api/maven/versions/releases/net/neoforged/forge',
-			metaData: 'maven.creeperhost.net/api/maven/versions/releases/net/neoforged/neoforge',
-			legacyInstall: 'maven.creeperhost.net/net/neoforged/forge/${version}/forge-${version}-installer.jar',
-			install: 'https://maven.creeperhost.net/net/neoforged/neoforge/${version}/neoforge-${version}-installer.jar'
+			legacyMetaData: 'https://maven.creeperhost.net/net/neoforged/neoforge',
+			metaData: 'https://maven.creeperhost.net/net/neoforged/neoforge',
+			legacyInstall: 'https://maven.creeperhost.net/net/neoforged/neoforge/21.1.174/neoforge-21.1.174-installer.jar',
+			install: 'https://maven.creeperhost.net/net/neoforged/neoforge/21.1.174/neoforge-21.1.174-installer.jar'
 		};
 	} else if (type === 'fabric') {
 		return {
