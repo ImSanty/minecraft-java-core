@@ -133,7 +133,7 @@ function loader(type: string) {
 			legacyMetaData: 'https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/forge',
 			metaData: 'https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge',
 			legacyInstall: 'https://maven.neoforged.net/net/neoforged/forge/${version}/forge-${version}-installer.jar',
-			install: 'https://maven.neoforged.net/net/neoforged/neoforge/${version}/neoforge-${version}-installer.jar'
+			install: 'https://maven.creeperhost.net/net/neoforged/neoforge/${version}/neoforge-${version}-installer.jar'
 		};
 	} else if (type === 'fabric') {
 		return {
