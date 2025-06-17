@@ -130,8 +130,8 @@ function loader(type: string) {
 		};
 	} else if (type === 'neoforge') {
 		return {
-			legacyMetaData: 'https://imsanty.dev/api/maven/versions/releases/net/neoforged/neoforge',
-			metaData: 'https://imsanty.dev/api/maven/versions/releases/net/neoforged/neoforge',
+			legacyMetaData: 'https://imsanty.dev/api/maven/versions/releases/net/neoforged/neoforge/maven-metadata.xml',
+			metaData: 'https://imsanty.dev/api/maven/versions/releases/net/neoforged/neoforge/maven-metadata.xml',
 			legacyInstall: 'https://maven.creeperhost.net/net/neoforged/neoforge/21.1.174/neoforge-21.1.174-installer.jar',
 			install: 'https://maven.creeperhost.net/net/neoforged/neoforge/21.1.174/neoforge-21.1.174-installer.jar'
 		};
